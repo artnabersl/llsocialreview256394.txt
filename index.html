@@ -3,16 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>How To Make Your First $100/Day Online (Simple Method)</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Free Classified Ad Websites List - Boost Your Affiliate Marketing</title>
     <style>
         :root {
-            --primary: #3B82F6;
-            --secondary: #1E3A8A;
-            --accent: #F97316;
-            --urgency: #DC2626;
-            --light: #F9FAFB;
-            --dark: #1F2937;
+            --primary-color: #4776E6;
+            --secondary-color: #8E54E9;
+            --accent-color: #FF6B6B;
+            --text-color: #333;
+            --light-color: #f8f9fa;
         }
         
         * {
@@ -23,573 +21,352 @@
         }
         
         body {
-            background-color: var(--light);
-            color: var(--dark);
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
             min-height: 100vh;
             display: flex;
-            flex-direction: column;
-            align-items: center;
             justify-content: center;
+            align-items: center;
             padding: 20px;
-            text-align: center;
-        }
-        
-        .red-bar {
-            background: var(--urgency);
-            height: 8px;
-            width: 100%;
-            position: fixed;
-            top: 0;
-            left: 0;
-            z-index: 1000;
-            animation: pulse 2s infinite;
         }
         
         .container {
-            max-width: 800px;
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
             width: 100%;
-            background: white;
-            border-radius: 15px;
+            max-width: 500px;
+            overflow: hidden;
+            transition: all 0.5s ease;
+        }
+        
+        .header {
+            background: linear-gradient(90deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+            color: white;
+            padding: 30px 20px;
+            text-align: center;
+        }
+        
+        h1 {
+            font-size: 28px;
+            margin-bottom: 10px;
+            line-height: 1.3;
+            min-height: 110px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .subtitle {
+            font-size: 18px;
+            opacity: 0.9;
+            margin-bottom: 5px;
+        }
+        
+        .content {
             padding: 30px;
-            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
-            margin-top: 20px;
-            border: 1px solid #E5E7EB;
-        }
-        
-        @keyframes pulse {
-            0% { background-color: var(--urgency); }
-            50% { background-color: #EF4444; }
-            100% { background-color: var(--urgency); }
-        }
-        
-        .headline {
-            font-size: 2.8rem;
-            font-weight: 800;
-            margin: 20px 0;
-            line-height: 1.2;
-            color: var(--secondary);
-        }
-        
-        .subheadline {
-            font-size: 1.5rem;
-            margin-bottom: 30px;
-            font-weight: 500;
-            color: var(--dark);
-        }
-        
-        .timer {
-            font-size: 2.2rem;
-            font-weight: 900;
-            margin: 30px 0;
-            padding: 15px;
-            background: rgba(220, 38, 38, 0.1);
-            border-radius: 10px;
-            color: var(--urgency);
-            letter-spacing: 2px;
-            border: 2px solid var(--urgency);
-            animation: timerPulse 1s infinite;
-        }
-        
-        @keyframes timerPulse {
-            0% { transform: scale(1); }
-            50% { transform: scale(1.02); }
-           100% { transform: scale(1); }
         }
         
         .benefits {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 15px;
-            margin: 30px 0;
+            margin-bottom: 25px;
         }
         
-        .benefit {
-            background: #EFF6FF;
-            padding: 15px;
-            border-radius: 10px;
-            width: calc(50% - 15px);
-            text-align: left;
+        .benefit-item {
             display: flex;
             align-items: center;
+            margin-bottom: 15px;
         }
         
-        .benefit i {
-            color: var(--primary);
-            font-size: 1.5rem;
-            margin-right: 10px;
+        .benefit-icon {
+            background-color: var(--primary-color);
+            color: white;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 15px;
+            flex-shrink: 0;
         }
         
-        .form-container {
-            background: #F9FAFB;
-            padding: 30px;
-            border-radius: 15px;
-            margin-top: 30px;
-            border: 1px solid #E5E7EB;
-        }
-        
-        .form-title {
-            font-size: 1.5rem;
-            margin-bottom: 25px;
-            color: var(--secondary);
-            font-weight: 700;
-        }
-        
-        .input-group {
+        .form-group {
             margin-bottom: 20px;
-            position: relative;
         }
         
-        .input-icon {
-            position: absolute;
-            left: 15px;
-            top: 15px;
-            color: #6B7280;
-        }
-        
-        input {
+        input[type="email"] {
             width: 100%;
-            padding: 15px 15px 15px 45px;
-            border: 2px solid #E5E7EB;
+            padding: 15px;
+            border: 1px solid #ddd;
             border-radius: 8px;
-            font-size: 1rem;
-            transition: all 0.3s;
-            background: white;
+            font-size: 16px;
+            transition: border-color 0.3s;
         }
         
-        input:focus {
-            border-color: var(--primary);
+        input[type="email"]:focus {
+            border-color: var(--primary-color);
             outline: none;
-            box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.3);
+            box-shadow: 0 0 0 2px rgba(71, 118, 230, 0.2);
         }
         
         button {
-            background: var(--accent);
+            background: linear-gradient(90deg, var(--primary-color) 0%, var(--secondary-color) 100%);
             color: white;
             border: none;
-            padding: 18px;
-            font-size: 1.2rem;
             border-radius: 8px;
-            cursor: pointer;
-            transition: all 0.3s;
-            font-weight: 700;
-            margin-top: 15px;
+            padding: 15px;
+            font-size: 18px;
+            font-weight: 600;
             width: 100%;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
         }
         
         button:hover {
-            background: #EA580C;
             transform: translateY(-2px);
-            box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+            box-shadow: 0 5px 15px rgba(71, 118, 230, 0.4);
         }
         
-        .guarantee {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-top: 25px;
-            color: #6B7280;
-            font-size: 0.9rem;
-            font-weight: 500;
+        .privacy {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 14px;
+            color: #777;
         }
         
-        .guarantee i {
-            color: var(--primary);
-            font-size: 1.5rem;
-            margin-right: 10px;
+        .badge {
+            display: inline-block;
+            background-color: var(--accent-color);
+            color: white;
+            padding: 3px 10px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: bold;
+            margin-bottom: 15px;
         }
         
-        .social-proof {
-            margin-top: 30px;
-            display: flex;
-            flex-direction: column;
-            gap: 10px;
+        .free-label {
+            color: var(--accent-color);
+            font-weight: bold;
         }
         
-        .proof-item {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: #4B5563;
-            font-size: 0.9rem;
-        }
-        
-        .proof-item i {
-            color: var(--accent);
-            margin-right: 8px;
-        }
-        
-        .disclaimer {
-            margin-top: 30px;
-            font-size: 0.8rem;
-            color: #9CA3AF;
-            line-height: 1.5;
-        }
-        
-        @media (max-width: 768px) {
-            .headline {
-                font-size: 2rem;
+        @media (max-width: 576px) {
+            h1 {
+                font-size: 24px;
+                min-height: 130px;
             }
             
-            .subheadline {
-                font-size: 1.2rem;
+            .subtitle {
+                font-size: 16px;
             }
             
-            .timer {
-                font-size: 1.8rem;
-            }
-            
-            .container {
+            .content {
                 padding: 20px;
-            }
-            
-            .benefit {
-                width: 100%;
             }
         }
     </style>
 </head>
 <body>
-    <div class="red-bar"></div>
-
-    <div class="container">
-        <h1 class="headline" id="main-heading">How To Make Your First $100/Day Online (Simple Method)</h1>
-        <p class="subheadline" id="sub-heading">Step-by-step plan already tested by over 3,217 members - now available for free</p>
-        
-        <div class="timer">
-            <i class="fas fa-bolt"></i> <span id="countdown">14:37</span> LEFT TO CLAIM
+    <div class="container" id="mainContainer">
+        <div class="header" id="headerSection">
+            <h1 id="dynamicTitle">Get FREE Access to 89 High-Traffic Classified Ad Sites</h1>
+            <p class="subtitle">Plus working home office opportunities - <span class="free-label">100% FREE</span></p>
         </div>
         
-        <div class="benefits">
-            <div class="benefit">
-                <i class="fas fa-play-circle"></i>
-                <div>Start immediately - no prior knowledge needed</div>
-            </div>
-            <div class="benefit">
-                <i class="fas fa-gift"></i>
-                <div>100% free training (video + PDF)</div>
-            </div>
-            <div class="benefit">
-                <i class="fas fa-chart-pie"></i>
-                <div>Works in any niche</div>
-            </div>
-            <div class="benefit">
-                <i class="fas fa-clock"></i>
-                <div>Perfect for side or full-time income</div>
-            </div>
-        </div>
-        
-        <div class="form-container">
-            <h3 class="form-title"><i class="fas fa-lock"></i> LIMITED FREE ACCESS</h3>
+        <div class="content">
+            <div class="badge">FREE Download</div>
             
-            <form method="post" action="https://www.yourserver.com/subscribe/">
-                <div class="input-group">
-                    <i class="fas fa-user input-icon"></i>
-                    <input name="name" type="text" placeholder="Your Name (optional)">
+            <div class="benefits">
+                <div class="benefit-item">
+                    <div class="benefit-icon">✓</div>
+                    <div><span class="free-label">Free</span> list of 89 high-traffic classified ad websites</div>
                 </div>
-                <div class="input-group">
-                    <i class="fas fa-envelope input-icon"></i>
-                    <input name="email" required type="email" placeholder="your@email.com">
+                <div class="benefit-item">
+                    <div class="benefit-icon">✓</div>
+                    <div>Proven <span class="free-label">free</span> home office opportunities</div>
                 </div>
-                <input type="hidden" name="source" id="traffic-source" value="default_source">
-                <input type="hidden" name="lpversion" id="lp-version" value="1">
-                <button type="submit"><i class="fas fa-arrow-right"></i> YES, I WANT THE $100/DAY PLAN!</button>
+                <div class="benefit-item">
+                    <div class="benefit-icon">✓</div>
+                    <div>No spam - Only valuable updates</div>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-icon">✓</div>
+                    <div>All resources are completely <span class="free-label">FREE</span></div>
+                </div>
+            </div>
+            
+            <form method="post" action="https://www.sendsteed.com/subscribe/" id="signupForm">
+                <div class="form-group">
+                    <input type="email" name="e112051" required placeholder="Your Email Address" id="emailInput">
+                </div>
+                <input type="hidden" name="n112051" value="Subscriber">
+                <input type="hidden" name="lllid" value="112051">
+                <input type="hidden" name="lluid" value="sandyarta">
+                <input type="hidden" name="redirect" value="">
+                <input type="hidden" name="source" value="" id="sourceInput">
+                <button type="submit">Get My FREE List Now</button>
             </form>
             
-            <div class="guarantee">
-                <i class="fas fa-shield-alt"></i>
-                <p>Your information is 100% secure. No spam - unsubscribe anytime.</p>
-            </div>
-            
-            <div class="social-proof">
-                <div class="proof-item">
-                    <i class="fas fa-star"></i>
-                    <p>Already over 3,217 downloads worldwide - and growing daily</p>
-                </div>
-                <div class="proof-item">
-                    <i class="fas fa-chart-line"></i>
-                    <p>Popular with beginners in 12+ countries</p>
-                </div>
-            </div>
+            <p class="privacy">We respect your privacy. We will never spam you!</p>
         </div>
-        
-        <p class="disclaimer">Disclaimer: Individual results may vary. This is not a get-rich-quick scheme. The examples shown are for illustrative purposes only.</p>
     </div>
 
     <script>
-        // 100 different headlines
-        const headlines = [
-            "How To Make Your First $100/Day Online (Simple Method)",
-            "The $100/Day Blueprint: Start Earning Within 24 Hours",
-            "Revealed: How Beginners Make $100 Daily (Zero Experience Needed)",
-            "$100/Day Formula: The Simple Method That's Working Now",
-            "From $0 to $100/Day: Your Step-by-Step Roadmap",
-            "How To Consistently Make $100 Every Single Day Online",
-            "The Secret To Your First $100/Day (No Special Skills Required)",
-            "How I Make $100/Day And How You Can Too (Free Guide)",
-            "The $100/Day Challenge: Join Thousands Who Succeeded",
-            "Make Your First $100 Online: The Proven Method",
-            "Earn $100 Daily With This Simple System (Start Today)",
-            "How To Create $100/Day Income Stream (Step-by-Step)",
-            "The Truth About Making $100/Day Online (It's Easier Than You Think)",
-            "$100/Day Masterplan: Follow These Simple Steps",
-            "How To Generate $100/Day Passively (Free Training)",
-            "Make $100 Every Day: The Beginner-Friendly Method",
-            "Your Path To $100/Day: The Complete Guide",
-            "The $100/Day Solution For Complete Beginners",
-            "How To Reach $100/Day In Record Time (Proven Formula)",
-            "$100/Day Breakthrough: What Really Works in 2023",
-            "The Simple $100/Day Method Anyone Can Use",
-            "How To Secure $100 Daily Income (Guaranteed Method)",
-            "Make $100/Day Without Special Skills Or Experience",
-            "The $100/Day Code: Crack It With This Simple System",
-            "Your First $100/Day: The No-Fail Approach",
-            "Earn $100 Daily With This Surprisingly Simple Method",
-            "How To Achieve $100/Day In The Next 7 Days",
-            "The $100/Day Shortcut Everyone Is Talking About",
-            "Make $100 Every Day: The Stress-Free Way",
-            "$100/Day Revelation: What The Pros Don't Tell You",
-            "How To Build To $100/Day (The Right Way)",
-            "The $100/Day Method That Never Fails",
-            "Make $100/Day Online: The Honest Truth",
-            "Your $100/Day Blueprint Is Here (Get Started Now)",
-            "How To Create $100/Day With Minimal Effort",
-            "The $100/Day Strategy That Actually Works",
-            "Make $100 Daily: The System That Can't Miss",
-            "How To Reach $100/Day Faster Than You Thought Possible",
-            "The $100/Day Promise: What Really Delivers Results",
-            "Make $100/Day The Simple Way (No Complex Strategies)",
-            "How To Generate $100/Day Consistently",
-            "The $100/Day Foundation: Build Your Income Stream",
-            "Make $100 Every Single Day: The Reliable Method",
-            "How To Unlock $100/Day Income (The Key Revealed)",
-            "$100/Day Mastery: Learn What Really Works",
-            "The $100/Day Method: Simple, Proven, Effective",
-            "Make $100/Day Without The Overwhelm",
-            "How To Achieve $100/Day In Your Spare Time",
-            "The $100/Day Breakthrough For Beginners",
-            "Make $100 Daily: The No-Risk, High-Reward Way",
-            "How To Create $100/Day From Scratch",
-            "The $100/Day Formula: Math That Adds Up",
-            "Make $100 Every Day: The Predictable Method",
-            "How To Build A $100/Day Income (Start Today)",
-            "The $100/Day Solution You've Been Searching For",
-            "Make $100/Day: The Straightforward Approach",
-            "How To Generate $100/Day Without Guesswork",
-            "The $100/Day Method That Adapts To Any Skill Level",
-            "Make $100 Daily: The Recession-Proof Way",
-            "How To Reach $100/Day (Without Complicated Strategies)",
-            "The $100/Day Blueprint That Never Gets Old",
-            "Make $100 Every Day: The Sustainable Method",
-            "How To Create $100/Day Momentum (And Keep It Going)",
-            "The $100/Day Advantage: What Sets Successful People Apart",
-            "Make $100/Day: The Method That Works For Everyone",
-            "How To Achieve $100/Day (The Stress-Free Way)",
-            "The $100/Day Revelation: Why This Method Is Different",
-            "Make $100 Daily: The No-Excuses Approach",
-            "How To Build $100/Day Income (The Smart Way)",
-            "The $100/Day Method: Why It Works When Others Fail",
-            "Make $100 Every Day: The Systematic Approach",
-            "How To Generate $100/Day (Without Burning Out)",
-            "The $100/Day Foundation: Start Strong, Grow Faster",
-            "Make $100/Day: The Method That Fits Your Lifestyle",
-            "How To Reach $100/Day (The Efficient Way)",
-            "The $100/Day Breakthrough: Finally, A Method That Works",
-            "Make $100 Daily: The Simple, Step-by-Step Process",
-            "How To Create $100/Day (Without Complicated Tech)",
-            "The $100/Day Formula: Why It Works For Beginners",
-            "Make $100 Every Day: The Method That Scales",
-            "How To Achieve $100/Day (Without Prior Experience)",
-            "The $100/Day Solution: Finally, Something That Works",
-            "Make $100/Day: The Low-Stress, High-Reward Method",
-            "How To Build $100/Day Income (The Guaranteed Way)",
-            "The $100/Day Method: What Makes It So Effective",
-            "Make $100 Daily: The Approach Anyone Can Master",
-            "How To Generate $100/Day (Without Special Talent)",
-            "The $100/Day Blueprint: Your Path To Financial Freedom",
-            "Make $100 Every Day: The Reliable, Proven Method",
-            "How To Reach $100/Day (The Enjoyable Way)",
-            "The $100/Day Breakthrough: Why Now Is The Best Time",
-            "Make $100/Day: The Method That Works Around The Clock",
-            "How To Create $100/Day (Without Complicated Rules)",
-            "The $100/Day Formula: Simple Math, Big Results",
-            "Make $100 Daily: The Flexible Approach",
-            "How To Achieve $100/Day (Without Sacrificing Your Life)",
-            "The $100/Day Solution: Finally, A Method That Makes Sense",
-            "Make $100 Every Day: The Modern Method For Modern Times",
-            "How To Build $100/Day Income (The Future-Proof Way)",
-            "The $100/Day Method: Why It's Different This Time"
+        // Array of 100 different titles
+        const titles = [
+            "FREE: 89 High-Traffic Classified Sites for Affiliate Marketing",
+            "Get FREE Access to 89 High-Traffic Classified Ad Sites",
+            "Discover 89 FREE Classified Websites for More Traffic",
+            "FREE List: 89 Classified Ad Sites That Actually Work",
+            "Boost Your Affiliate Sales with These 89 FREE Classified Sites",
+            "89 FREE High-Traffic Classifieds for Affiliate Promotions",
+            "Our FREE Gift: 89 Classified Sites for Maximum Exposure",
+            "FREE Resource: 89 Classified Ad Platforms for Marketers",
+            "Get More Clicks with These 89 FREE Classified Websites",
+            "FREE Download: 89 Proven Classified Sites for Traffic",
+            "89 FREE Classified Ad Sites That Deliver Real Visitors",
+            "Grow Your Business with These 89 FREE Classified Platforms",
+            "FREE List of 89 Classified Sites That Still Work in 2023",
+            "Drive FREE Traffic with These 89 Classified Ad Websites",
+            "89 FREE Places to Promote Your Affiliate Offers Online",
+            "The Ultimate FREE List of 89 Classified Sites for Marketing",
+            "Get FREE Instant Access to 89 High-Traffic Classifieds",
+            "89 FREE Classified Ad Sites for Work-From-Home Offers",
+            "Our FREE Guide to 89 Classified Sites That Generate Clicks",
+            "Discover 89 FREE Places to Advertise Your Offers",
+            "FREE Resource: 89 Classified Sites for Affiliate Success",
+            "89 FREE High-Traffic Platforms for Your Marketing Needs",
+            "Get Noticed with These 89 FREE Classified Ad Websites",
+            "FREE Download: 89 Classified Sites That Drive Results",
+            "89 FREE Advertising Platforms for Digital Marketers",
+            "Boost Your Income with These 89 FREE Classified Sites",
+            "FREE List of 89 Classified Ad Sites with Real Traffic",
+            "89 FREE Places to Promote Any Business or Offer",
+            "Get More Sales with Our FREE List of 89 Classified Sites",
+            "FREE Access to 89 Proven Classified Advertising Platforms",
+            "89 FREE Websites to Promote Your Affiliate Programs",
+            "The Complete FREE List of 89 Working Classified Sites",
+            "FREE Resource: 89 Classifieds for Work-From-Home Offers",
+            "89 FREE High-Traffic Sites for Marketing Your Business",
+            "Grow Your Audience with These 89 FREE Classified Sites",
+            "FREE Download: 89 Classified Ad Platforms That Convert",
+            "89 FREE Places to List Your Offers and Get Customers",
+            "Get FREE Traffic from These 89 Classified Websites",
+            "Our FREE Gift: 89 Classified Sites for Affiliate Marketers",
+            "89 FREE Advertising Sites That Deliver Real Results",
+            "Discover 89 FREE Platforms to Promote Your Business",
+            "FREE List of 89 Classified Sites with Active Users",
+            "89 FREE Ways to Promote Your Offers Online",
+            "Get More Leads with These 89 FREE Classified Websites",
+            "FREE Resource: 89 Classified Ad Sites for More Sales",
+            "89 FREE High-Traffic Destinations for Your Ads",
+            "Boost Your Visibility with These 89 FREE Classified Sites",
+            "FREE Download: 89 Classified Platforms That Work",
+            "89 FREE Places to Advertise Without Spending Money",
+            "Get FREE Exposure on These 89 Classified Websites",
+            "Our FREE List of 89 Classified Sites for Digital Marketers",
+            "89 FREE Advertising Opportunities for Your Business",
+            "Discover 89 FREE Sites to Promote Affiliate Offers",
+            "FREE Resource: 89 Classified Ad Websites with Traffic",
+            "89 FREE Platforms to Market Your Products and Services",
+            "Get More Clicks with Our FREE List of 89 Classified Sites",
+            "FREE Access to 89 High-Traffic Advertising Platforms",
+            "89 FREE Classified Sites for Work-From-Home Businesses",
+            "The Ultimate FREE Guide to 89 Classified Ad Websites",
+            "89 FREE Places to Get Your Offers in Front of Buyers",
+            "FREE List: 89 Classified Sites That Generate Leads",
+            "89 FREE Websites to Advertise Your affiliate Programs",
+            "Grow Your Business with These 89 FREE Classified Sites",
+            "FREE Download: 89 Proven Advertising Platforms",
+            "89 FREE Ways to Get Traffic to Your Offers",
+            "Get Noticed Online with These 89 FREE Classified Sites",
+            "Our FREE Gift: 89 Classified Ad Sites for Marketers",
+            "89 FREE High-Traffic Resources for Affiliate Promotion",
+            "Discover 89 FREE Classified Websites That Actually Work",
+            "FREE Resource: 89 Places to Advertise for FREE",
+            "89 FREE Platforms to Promote Your Home Business",
+            "Boost Your Sales with These 89 FREE Classified Sites",
+            "FREE Access to 89 Classified Ad Sites with Real Users",
+            "89 FREE Advertising Websites for Digital Products",
+            "Get More Customers with Our FREE List of 89 Classifieds",
+            "FREE List of 89 Classified Sites That Deliver Traffic",
+            "89 FREE Places to Market Your affiliate Offers",
+            "Grow Your Income with These 89 FREE Classified Websites",
+            "FREE Download: 89 High-Traffic Classified Platforms",
+            "89 FREE Ways to Promote Your Business Online",
+            "Get FREE Advertising on These 89 Classified Sites",
+            "Our FREE Resource: 89 Classified Ad Sites That Work",
+            "89 FREE Websites to List Your Products and Services",
+            "Discover 89 FREE Classified Platforms for More Exposure",
+            "FREE Guide to 89 Classified Sites for Affiliate Marketing",
+            "89 FREE High-Traffic Destinations for Your Promotions",
+            "Boost Your Results with These 89 FREE Classified Sites",
+            "FREE Access to 89 Proven Websites for Advertising",
+            "89 FREE Classified Ad Sites for Work-From-Home Success",
+            "Get More Visibility with Our FREE List of 89 Classifieds",
+            "FREE List: 89 Classified Websites That Generate Sales",
+            "89 FREE Places to Promote Your Digital Offers",
+            "Grow Your Traffic with These 89 FREE Classified Sites",
+            "FREE Download: 89 Classified Ad Platforms with Traffic",
+            "89 FREE Advertising Opportunities for Affiliates",
+            "Get FREE Promotional Space on These 89 Classified Sites",
+            "Our FREE Gift: 89 High-Traffic Classified Websites",
+            "89 FREE Resources for Marketing Your Business"
         ];
-        
-        // 100 different subheadlines
-        const subheadlines = [
-            "Step-by-step plan already tested by over 3,217 members - now available for free",
-            "Join thousands who discovered this simple method to make $100 daily",
-            "Proven system that works for beginners - get started in less than 10 minutes",
-            "This method requires no special skills, no previous experience, and no investment",
-            "Finally, a realistic way to make your first $100 online - see how it works",
-            "Why struggle when you can follow this simple blueprint to $100/day",
-            "Discover the secret that helped over 3,217 people make their first $100 online",
-            "This isn't another 'get rich quick' scheme - it's a proven, step-by-step method",
-            "Time-sensitive opportunity: free access to the $100/day blueprint",
-            "How ordinary people are making extraordinary income with this simple method",
-            "The exact steps I used to go from $0 to $100/day - now shared freely",
-            "No more confusion: follow this clear path to your first $100 online",
-            "This method works in any niche, any country, and any age group",
-            "Why this approach to making $100/day is different from everything else",
-            "See how beginners are achieving $100/day faster than they thought possible",
-            "Finally revealed: the simple method that's helping thousands earn daily",
-            "This blueprint breaks down everything you need to make $100/day",
-            "No technical skills required - just follow these simple steps",
-            "How to create a consistent $100/day income stream starting today",
-            "The truth about making money online: this method actually works",
-            "Why 2023 is the perfect time to start your $100/day journey",
-            "This isn't complicated - just a straightforward way to make $100 daily",
-            "How to avoid common mistakes and reach $100/day faster",
-            "The complete roadmap to your first $100 online - explained simply",
-            "Why this method works when others fail: the surprising truth",
-            "How to build momentum and quickly reach $100/day",
-            "This approach adapts to your schedule - perfect for busy people",
-            "No more guesswork: follow this proven path to $100/day",
-            "Why beginners love this method: it's simple, effective, and free",
-            "How to create multiple streams that add up to $100/day",
-            "The psychological breakthrough that makes earning $100/day easier",
-            "Why this method is sustainable long-term, not just a quick fix",
-            "How to overcome obstacles and consistently make $100 daily",
-            "The mindset shift that leads to your first $100 and beyond",
-            "Why this blueprint works for people who've failed before",
-            "How to leverage your existing skills to make $100/day",
-            "The simple habit that leads to consistent $100 days",
-            "Why now is the best time to start your $100/day journey",
-            "How to create a system that generates $100/day automatically",
-            "The one thing successful $100/day earners do differently",
-            "Why this method doesn't require special talent or luck",
-            "How to turn small actions into consistent $100 days",
-            "The mathematical approach to reaching $100/day predictably",
-            "Why this method works in any economic condition",
-            "How to build a foundation that leads to $100/day and beyond",
-            "The efficiency secret that helps you reach $100/day faster",
-            "Why this approach is perfect for those with limited time",
-            "How to create a $100/day income without stress or overwhelm",
-            "The momentum principle: how small wins lead to $100 days",
-            "Why this method is different from anything you've tried before",
-            "How to develop the habits of consistent $100/day earners",
-            "The simplicity behind making $100/day: less is more",
-            "Why this blueprint works for people of all ages and backgrounds",
-            "How to create a predictable $100/day income stream",
-            "The action-focused approach to reaching $100/day quickly",
-            "Why this method eliminates confusion and provides clarity",
-            "How to build confidence while building your $100/day income",
-            "The system that makes $100/day achievable for everyone",
-            "Why this approach is perfect for the current digital landscape",
-            "How to leverage free tools to create your $100/day income",
-            "The mindset that separates successful $100/day earners",
-            "Why this method focuses on sustainable growth, not hype",
-            "How to create a $100/day business that fits your lifestyle",
-            "The efficiency hack that saves time while earning $100/day",
-            "Why this blueprint is perfect for those starting from zero",
-            "How to overcome self-doubt and reach $100/day anyway",
-            "The practical approach to making $100/day without theory",
-            "Why this method works with your schedule, not against it",
-            "How to build multiple $20 streams that become $100/day",
-            "The consistency secret that leads to regular $100 days",
-            "Why this approach is perfect for introverts and extroverts alike",
-            "How to create a $100/day income without special equipment",
-            "The simplicity principle: why complicated methods fail",
-            "Why this method works for people with no online experience",
-            "How to turn your everyday skills into $100/day income",
-            "The action plan that leads to your first $100 in record time",
-            "Why this blueprint is different from expensive courses",
-            "How to create a $100/day system that grows over time",
-            "The mindset shift that makes earning $100/day natural",
-            "Why this method is perfect for those with limited resources",
-            "How to build confidence as you build your $100/day income",
-            "The efficiency method that maximizes your earning time",
-            "Why this approach works in any niche or market",
-            "How to create a $100/day business that's recession-proof",
-            "The habit formation that leads to consistent $100 days",
-            "Why this method is perfect for those who've failed before",
-            "How to leverage your unique strengths to make $100/day",
-            "The systematic approach to reaching $100/day predictably",
-            "Why this blueprint focuses on action, not just theory",
-            "How to create a $100/day income without expensive tools",
-            "The momentum building that accelerates your progress",
-            "Why this method works for people with full-time jobs",
-            "How to turn small actions into big $100/day results",
-            "The practical steps that lead to your first $100 online",
-            "Why this approach is perfect for those with anxiety about online business",
-            "How to build a $100/day income that complements your life",
-            "The consistency framework that ensures regular $100 days",
-            "Why this method is different from everything else you've tried",
-            "How to create a $100/day system that works while you sleep",
-            "The mindset adjustment that makes earning $100/day easier",
-            "Why this blueprint is perfect for those who value their time",
-            "How to leverage existing platforms to create $100/day income",
-            "The action-oriented approach that delivers real results"
+
+        // Color schemes for the page
+        const colorSchemes = [
+            { primary: '#4776E6', secondary: '#8E54E9', accent: '#FF6B6B' },
+            { primary: '#FF416C', secondary: '#FF4B2B', accent: '#1E3A8A' },
+            { primary: '#3A86FF', secondary: '#8338EC', accent: '#FF006E' },
+            { primary: '#38B000', secondary: '#008000', accent: '#9D4EDD' },
+            { primary: '#F72585', secondary: '#7209B7', accent: '#3A0CA3' },
+            { primary: '#F3722C', secondary: '#F8961E', accent: '#43AA8B' },
+            { primary: '#05668D', secondary: '#028090', accent: '#00A896' },
+            { primary: '#6A4C93', secondary: '#1982C4', accent: '#8AC926' },
+            { primary: '#D62246', secondary: '#4EA8DE', accent: '#FFCA3A' },
+            { primary: '#240046', secondary: '#5A189A', accent: '#9D4EDD' }
         ];
-        
-        // Set tracking parameters from URL
-        function setTrackingParams() {
+
+        document.addEventListener('DOMContentLoaded', function() {
+            // Select a random title
+            const randomTitleIndex = Math.floor(Math.random() * titles.length);
+            document.getElementById('dynamicTitle').textContent = titles[randomTitleIndex];
+            
+            // Select a random color scheme
+            const randomColorScheme = colorSchemes[Math.floor(Math.random() * colorSchemes.length)];
+            
+            // Apply the color scheme
+            document.documentElement.style.setProperty('--primary-color', randomColorScheme.primary);
+            document.documentElement.style.setProperty('--secondary-color', randomColorScheme.secondary);
+            document.documentElement.style.setProperty('--accent-color', randomColorScheme.accent);
+            
+            // Traffic source detection
+            let source = 'direct';
+            
+            // Check if traffic comes from a search engine
+            if (document.referrer) {
+                const referrer = new URL(document.referrer);
+                if (referrer.hostname.includes('google')) source = 'google';
+                else if (referrer.hostname.includes('bing')) source = 'bing';
+                else if (referrer.hostname.includes('yahoo')) source = 'yahoo';
+                else if (referrer.hostname.includes('duckduckgo')) source = 'duckduckgo';
+                else source = 'referral';
+            }
+            
+            // Check for UTM parameters
             const urlParams = new URLSearchParams(window.location.search);
-            const source = urlParams.get('source') || 'organic';
-            const lpversion = urlParams.get('lpversion') || '1';
+            if (urlParams.has('utm_source')) {
+                source = urlParams.get('utm_source');
+            }
             
-            document.getElementById('traffic-source').value = source;
-            document.getElementById('lp-version').value = lpversion;
+            // Set source in the form
+            document.getElementById('sourceInput').value = source;
             
-            console.log('Traffic Source:', source);
-            console.log('LP Version:', lpversion);
-        }
-        
-        // Randomly select content from the arrays
-        function randomizeContent() {
-            const randomIndex = Math.floor(Math.random() * 100);
-            
-            // Set texts
-            document.getElementById('main-heading').textContent = headlines[randomIndex];
-            document.getElementById('sub-heading').textContent = subheadlines[randomIndex];
-            
-            // Set LP version for tracking
-            document.getElementById('lp-version').value = (randomIndex + 1).toString();
-        }
-        
-        // Timer functionality
-        function startTimer(duration, display) {
-            let timer = duration, minutes, seconds;
-            setInterval(function () {
-                minutes = parseInt(timer / 60, 10);
-                seconds = parseInt(timer % 60, 10);
-                
-                minutes = minutes < 10 ? "0" + minutes : minutes;
-                seconds = seconds < 10 ? "0" + seconds : seconds;
-                
-                display.textContent = minutes + ":" + seconds;
-                
-                if (--timer < 0) {
-                    timer = duration;
-                }
-            }, 1000);
-        }
-        
-        // On page load
-        window.onload = function () {
-            // Set tracking parameters
-            setTrackingParams();
-            
-            // Randomize content
-            randomizeContent();
-            
-            // Start timer (15 minutes)
-            const fifteenMinutes = 60 * 15;
-            const display = document.querySelector('#countdown');
-            startTimer(fifteenMinutes, display);
-            
-            // Show exit popup after 5 seconds
-            setTimeout(function() {
-                alert("Wait! Before you go: Get the free training now and discover the $100/Day method - available for a limited time only!");
-            }, 5000);
-        };
+            // Form submission event
+            document.getElementById('signupForm').addEventListener('submit', function() {
+                // You can add confirmation page redirection here if needed
+            });
+        });
     </script>
 </body>
 </html>
